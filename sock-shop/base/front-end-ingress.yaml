@@ -9,7 +9,7 @@ metadata:
     nginx.ingress.kubernetes.io/proxy-body-size: 100M
     nginx.ingress.kubernetes.io/app-root: '/'
 spec:
-  ingressClassName: nginx
+  ingressClassName: kong
   rules:
     - host: sockshop.apps.argoproj.io
       http:
